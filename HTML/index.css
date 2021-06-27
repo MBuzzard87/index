@@ -64,13 +64,13 @@ body{ font-family: 'Recursive', sans-serif; overflow: hidden; }
     padding: 0 2rem;
 }
 
-.title{ font-size: 3rem; }
+.title{ font-size: 2.5rem; margin-top: 50px;}
 
 .description{ margin: 10px 0; text-align: center; width: 50%;
     font-size: 1.5rem;
 }
 
-.btn{ margin-top: 1rem; padding: 0.6rem 1.8rem;
+.btn{ margin: 1rem; padding: 0.6rem 1.8rem;
     background-color: #e20f2f; border: none; border-radius: 25px;
     color: #fff; text-transform: uppercase; cursor: pointer;
     text-decoration: none;
@@ -121,17 +121,18 @@ body{ font-family: 'Recursive', sans-serif; overflow: hidden; }
     
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .logo-sm {
         display: none;
     }
 }
 
-
-@media screen and (max-width: 400px) {
-    
-    
+@media screen and (min-width: 769px) {
+    .logo-sm {
+        display: none;
+    }
 }
+
 
 
 @keyframes main-animation{
@@ -143,17 +144,17 @@ body{ font-family: 'Recursive', sans-serif; overflow: hidden; }
 }
 
 .links{ position: absolute; width: 30%; right: 0; top: 0; 
-    height: 100vh; z-index: 2; overflow: hidden;
+    height: 100vh; z-index: 2; overflow: visible;
     display: flex; justify-content: flex-start; align-items: center;
     margin-left: 10px; padding-left: 2%;
 }
 
 ul{ list-style: none; }
 
-ul li.active a{ color: #e20f2f; }
+ul li.active a{ color: #e20f2f; font-size: 200%; font-weight: 900;}
 
 .links a{ text-decoration: none; color: #eee; padding: 0.7rem 0;
-    display: inline-block; font-size: 1.8rem; font-weight: 300;
+    display: inline-block; font-size: 180%; font-weight: 300;
     text-transform: uppercase; letter-spacing: 1px; transition: 0.3s;
     opacity: 0; transform: translateY(10px);
     animation: hide 0.5s forwards ease;

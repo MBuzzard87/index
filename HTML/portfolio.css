@@ -9,9 +9,10 @@ header{ min-height: 100vh; width: 100%;
 }
 
 .slider {
-  width: 400px;
+  width: 75%;
+  height: 60%;
   text-align: center;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .slides {
@@ -25,17 +26,13 @@ header{ min-height: 100vh; width: 100%;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   
-  /*
-  scroll-snap-points-x: repeat(300px);
-  scroll-snap-type: mandatory;
-  */
 }
 .slides::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 .slides::-webkit-scrollbar-thumb {
-  background: rgb(78, 92, 46);
+  background: #45917e;
   border-radius: 10px;
 }
 .slides::-webkit-scrollbar-track {
@@ -44,36 +41,28 @@ header{ min-height: 100vh; width: 100%;
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
-  width: 400px;
-  height: 300px;
-  border-radius: 10px;
-  background: rgba(238, 238, 238, 0);
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(238, 238, 238, 0.075);
   transform-origin: center center;
   transform: scale(1);
   transition: transform 0.5s;
   position: relative;
-  
-}
-
-img {
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  margin: 1% 2%;
+  padding: 2%;
 }
 
 .slider > a {
   display: inline-flex;
-  width: 1.5rem;
-  height: 1.5rem;
-  background: white;
+  width: 3rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.562);
   text-decoration: none;
+  color: #015843;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  margin: 5% 2%;
+  margin: 2% ;
   position: relative;
 }
 
