@@ -50,7 +50,7 @@ body{ font-family: 'Recursive', sans-serif; overflow: hidden; }
 }
 
 #indexpic{ min-height: 100vh; width: 100%;
-    background: url("https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80") no-repeat top center / cover;
+    background: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat top center / cover;
     position: relative;
 }
 
@@ -67,7 +67,7 @@ body{ font-family: 'Recursive', sans-serif; overflow: hidden; }
 .title{ font-size: 2.5rem; margin-top: 50px;}
 
 .description{ margin: 10px 0; text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .btn{ margin: 1rem; padding: 0.6rem 1.8rem;
