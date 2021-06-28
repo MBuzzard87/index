@@ -4,13 +4,15 @@ header{ min-height: 100vh; width: 100%;
     position: relative;
 }
 
+.portfoliotitle{ font-size: 2.5rem;}
+
 * {
   box-sizing: border-box;
 }
 
 .slider {
   width: 75%;
-  height: 60%;
+  height: 65%;
   text-align: center;
   overflow: auto;
 }
