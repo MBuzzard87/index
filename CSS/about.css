@@ -11,11 +11,12 @@ header{ min-height: 100vh; width: 100%;
 
 
 @media screen and (max-width: 769px) {
-    .about {
-        height: 100%;
+
+
+
+    .aboutimg {
+        height: 500px;
     }
-
-
     
     
 }
@@ -29,5 +30,6 @@ img {
 }
 
 .aboutimg {
-    height: 60%;
+    height: 400px;
+    
 }
