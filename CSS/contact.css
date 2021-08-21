@@ -48,9 +48,6 @@ header{ min-height: 100vh; width: 100%;
       letter-spacing: .5px;
     }
     
-    .no-space {
-      letter-spacing: 0px;
-    }
     
     .card {
       background-color: #e2e2e2;
@@ -60,7 +57,6 @@ header{ min-height: 100vh; width: 100%;
       margin: 20vh auto 0 auto;
       padding: 20px 10px 10px 10px;
       transform: rotateX(60deg) rotateY(0deg) rotateZ(45deg);
-      /* transform-origin: 50% 100%; */
       box-shadow: 0;
       transition: transform .4s ease,
                   box-shadow .4s ease;
