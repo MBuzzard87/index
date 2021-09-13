@@ -127,3 +127,9 @@ header{ min-height: 100vh; width: 100%;
     .toparea{ 
       height: 30%;
     }
+
+
+    .card.flip {
+      -webkit-transform: scale(3);
+      transform: scale(3);
+    }
